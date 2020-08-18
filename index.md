@@ -50,6 +50,7 @@
     </head>
 
     <body onload="draw()">
+        <script data-ad-client="ca-pub-6769638584371826" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <canvas id="canvas" width="688" height="688" crossorigin="anonymous"></canvas>
         <div id="sq1ph" class="ph"></div>
         <div id="sq2ph" class="ph"></div>

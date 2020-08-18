@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>On l'encule à deux</title>
+        <script data-ad-client="ca-pub-6769638584371826" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
@@ -47,7 +48,6 @@
                 cursor: pointer;
             }
         </style>
-        <script data-ad-client="ca-pub-6769638584371826" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </head>
 
     <body onload="draw()">

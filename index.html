@@ -2,7 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>à deux</title>
+        <title>On l'encule à deux generator</title>
+        <link rel="icon" type="image/webp" href="pnl.webp" />
 
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
@@ -39,16 +40,26 @@
                 width: 688px;
                 height: 688px;
                 align-self: center;
+                border-radius: 10px;
             }
 
             #download {
                 align-self: center;
-                padding: 10px 100px;
+                padding: 10px 15px;
                 border-radius: 5px;
                 font-size: 20px;
-                background-color: #2ecc71;
+                border: 2px solid white;
                 color: white;
                 cursor: pointer;
+            }
+
+            h1 {
+                color: black;
+                align-self: center;
+                font-style: italic;
+                background-color: white;
+                padding: 5px 50px;
+                border-radius: 5px;
             }
         </style>
 
@@ -56,21 +67,22 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146974169-2"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', 'UA-146974169-2');
+            gtag('config', 'UA-146974169-2');
         </script>
     </head>
 
     <body onload="draw()">
+        <h1>On l'encule à deux generator</h1>
         <canvas id="canvas" width="688" height="688" crossorigin="anonymous"></canvas>
         <div id="sq1ph" class="ph"></div>
         <div id="sq2ph" class="ph"></div>
         <input type="file" id="sq1" hidden />
         <input type="file" id="sq2" hidden />
-        <div id="download" onclick="download()">Télécharger l'image</div>
+        <div id="download" onclick="download()"><img src="download.svg" alt="dowload icon" /></div>
     </body>
 
     <script>
